@@ -39,9 +39,11 @@
 .product-img {
     border-radius: 20px;
     height: 400px;
+    padding: 25px 60px !important;
 
 
 }
+
 
 .help-box {
     border-radius: 15px;
