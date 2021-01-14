@@ -61,7 +61,14 @@
     .social-icon {
         justify-content: center !important;
     }
+
+    .helpImage {
+        flex-direction: column-reverse !important;
+    }
+
 }
+
+
 
 @media (max-width: 350px) {
     .logo {
