@@ -8,6 +8,20 @@
         sans-serif;
 }
 
+:root {
+    --bg-success: #76C27E;
+}
+
+/* Button Color Customization */
+.btn-success {
+    background-color: var(--bg-success);
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #7a9319;
+}
+
 .main-top {
     background-color: #FFFBF0;
 }
@@ -16,6 +30,7 @@
     font-size: 60px;
 }
 
+/* Product Customization */
 .product {
     border: none;
     border-radius: 20px;
@@ -28,7 +43,7 @@
 
 }
 
-.about-box {
+.help-box {
     border-radius: 15px;
 }
 
