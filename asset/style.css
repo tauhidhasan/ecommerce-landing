@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Rubik',
+        sans-serif;
+}
+
+.main-top {
+    background-color: #FFFBF0;
+}
+
+.txt-width {
+    font-size: 60px;
+}
+
+.product {
+    border: none;
+    border-radius: 20px;
+}
+
+.product-img {
+    border-radius: 20px;
+    height: 400px;
+
+
+}
+
+.about-box {
+    border-radius: 15px;
+}
+
+/* customized style for responsive */
+@media (max-width: 767px) {
+    .logo {
+        width: 220px !important;
+    }
+
+    .heading-center {
+        text-align: center !important;
+
+    }
+
+    .social-icon {
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo {
+        width: 190px !important;
+    }
+}
