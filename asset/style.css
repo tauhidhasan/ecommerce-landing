@@ -68,6 +68,9 @@
 
 }
 
+.icon-color a i {
+    color: #76C27E !important;
+}
 
 
 @media (max-width: 350px) {
